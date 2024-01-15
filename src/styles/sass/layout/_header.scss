@@ -1,0 +1,18 @@
+.header {
+  background-color: orangered;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .heading-primary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+
+    &--main {
+      font-size: $header-title-font-size;
+    }
+  }
+}

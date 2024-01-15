@@ -1,0 +1,21 @@
+.navigation {
+  padding: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &__title {
+    font-size: $header-title-font-size;
+  }
+
+  &__links {
+    display: flex;
+    gap: 2em;
+  }
+
+  &__link-item {
+    font-size: $default-font-size;
+    list-style: none;
+    font-weight: 500;
+  }
+}

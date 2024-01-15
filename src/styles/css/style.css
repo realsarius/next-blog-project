@@ -12,6 +12,50 @@ html {
 
 body {
   box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.navigation {
+  padding: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigation__title {
+  font-size: 3rem;
+}
+.navigation__links {
+  display: flex;
+  gap: 2em;
+}
+.navigation__link-item {
+  font-size: 1.6rem;
+  list-style: none;
+  font-weight: 500;
+}
+
+.header {
+  background-color: orangered;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .heading-primary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+.header .heading-primary--main {
+  font-size: 3rem;
 }
 
 /*# sourceMappingURL=style.css.map */
